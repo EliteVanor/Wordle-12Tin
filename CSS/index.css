@@ -1,0 +1,51 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 30px;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+}
+
+#question {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+}
+
+#question-button, #submit-button, #save-button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    background-color: #00adb5;
+    color: #eeeeee;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#question-button:hover, #submit-button:hover, #save-button:hover {
+    background-color: #009ba3;
+}
+
+#answer-input {
+    width: 60%;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #1a1a1a;
+}
+
+#feedback, #saved-answer {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #1a1a1a;
+}

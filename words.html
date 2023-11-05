@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn New Words</title>
+    <link rel="stylesheet" href="CSS/words.css">
+</head>
+
+<body>
+    <a href="index.html">Return</a>
+    <header>
+        <h1>Welcome to the Word Learning Website</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Saved Words</h2>
+            <a href="saved_words.html">List of saved words</a>
+            <div>
+                <p id="wordOfDay"></p>
+                <button onclick="revealDefinition()">Reveal Definition</button>
+            </div>
+            <p id="definition" style="display: none;"></p>
+            <button onclick="showRandomWord()">Show A Random Word</button>
+        </section>
+    </main>
+    <script src="JS/words.js"></script>
+</body>
+</html>

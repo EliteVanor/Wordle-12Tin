@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Question Generator</title>
+    <link rel="stylesheet" href="CSS\index.css">
+</head>
+
+<body>
+    <a href="words.html">Move to Word Learning website</a>
+
+    <h1>⭐ Word Guessing Game ⭐</h1>
+
+    <div id="question">Question...</div>
+    <button id="question-button" onclick="displayQuestion()">Generate Question</button>
+
+    <input type="text" id="answer-input" placeholder="Type your guess here">
+
+    <button id="submit-button" type="submit">Submit</button>
+    <div id="feedback"></div>
+
+    <button id="save-button" onclick="saveAnswer()">Save Answer</button>
+    <div id="saved-answer"></div>
+
+    <script src="JS\index.js"></script>
+</body>
+
+</html>
