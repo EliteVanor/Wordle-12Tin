@@ -1,14 +1,21 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: black;
+    background-image: url('1234.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+    color: white; /* Set the text color to white for better visibility on the image background */
+    text-shadow: 2px 2px 2px black;
+    font-size: 24px; /* Adjust the font size as desired */
+    font-weight: bold; /* Increase the font weight for better visibility */
 }
 
 header {
     background-color: #1a1a1a;
-    color: #eeeeee;
+    color: white;
     text-align: center;
     padding: 1rem 0;
 }
@@ -17,7 +24,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: rgb(221, 148, 114, 0.7);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
@@ -27,11 +34,11 @@ section {
 }
 
 h1, h2, h3 {
-    color: #1a1a1a;
+    color: white;
 }
 
 p {
-    color: #1a1a1a;
+    color: white;
 }
 
 button, input[type="submit"] {
@@ -40,7 +47,7 @@ button, input[type="submit"] {
     font-size: 18px;
     border: none;
     background-color: #00adb5;
-    color: #eeeeee;
+    color: white;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -56,7 +63,7 @@ input[type="text"] {
     padding: 15px;
     font-size: 18px;
     border-radius: 5px;
-    border: 2px solid #1a1a1a;
+    border: 2px solid white;
 }
 
 footer {
@@ -66,5 +73,5 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #00adb5;
-    color: #eeeeee;
+    color: white;
 }
